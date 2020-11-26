@@ -8,6 +8,9 @@ using System.Text;
 
 namespace Nodatime.DynamoDB.Conversions
 {
+    /// <summary>
+    /// Convert from ZonedDateTime to DynamoDB using DynamodDB string type
+    /// </summary>
     public class ZonedDateTimeConverter : IPropertyConverter
     {
         ZonedDateTimePattern pattern = ZonedDateTimePattern.GeneralFormatOnlyIso.WithZoneProvider(DateTimeZoneProviders.Tzdb);
