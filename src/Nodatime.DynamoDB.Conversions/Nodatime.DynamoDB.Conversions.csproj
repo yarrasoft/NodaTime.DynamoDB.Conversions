@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Nodatime.DynamoDB.Conversions</PackageId>
+    <Authors>John Baro</Authors>
+    <Company>Yarra Software</Company>
+    <Version>0.9.0-beta</Version>
+    <PackageTags>nodatime dynamodb aws</PackageTags>
+    <RepositoryUrl>https://github.com/yarrasoft/Nodatime.DynamoDB.Conversions</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Nodatime to DynamoDB conversions</Description>
   </PropertyGroup>
 
   <ItemGroup>
