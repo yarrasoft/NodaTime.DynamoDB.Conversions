@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nodatime.DynamoDB.Conversions
+namespace NodaTime.DynamoDB.Conversions
 {
     /// <summary>
     /// Convert from ZonedDateTime to DynamoDB using DynamodDB string type

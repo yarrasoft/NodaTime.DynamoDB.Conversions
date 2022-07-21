@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC1BCA51-098F-4C8E-8602-B244F888E0D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodaTime.DynamoDB.Conversions", "src\NodaTime.DynamoDB.Conversions\NodaTime.DynamoDB.Conversions.csproj", "{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5ABA38B9-7C31-4261-BA10-317167CDE09B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodaTime.DynamoDB.Conversions.Tests", "test\NodaTime.DynamoDB.Conversions.Tests\NodaTime.DynamoDB.Conversions.Tests.csproj", "{565C8940-8D45-4D47-9951-104BBED8AC00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DED0DDB-2A33-40E8-A257-6CFE287020EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565C8940-8D45-4D47-9951-104BBED8AC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565C8940-8D45-4D47-9951-104BBED8AC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565C8940-8D45-4D47-9951-104BBED8AC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565C8940-8D45-4D47-9951-104BBED8AC00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CD0EC4E-0A95-4C05-977F-61B87BE3C85E} = {FC1BCA51-098F-4C8E-8602-B244F888E0D1}
+		{565C8940-8D45-4D47-9951-104BBED8AC00} = {5ABA38B9-7C31-4261-BA10-317167CDE09B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87D0E3F9-D432-4082-BEE6-1A0AD5F53746}
+	EndGlobalSection
+EndGlobal

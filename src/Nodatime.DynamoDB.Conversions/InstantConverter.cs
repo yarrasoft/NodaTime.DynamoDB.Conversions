@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nodatime.DynamoDB.Conversions
+namespace NodaTime.DynamoDB.Conversions
 {
     public class InstantConverter : IPropertyConverter
     {

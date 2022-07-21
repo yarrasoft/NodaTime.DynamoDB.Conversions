@@ -1,21 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>Nodatime.DynamoDB.Conversions</PackageId>
+    <PackageId>NodaTime.DynamoDB.Conversions</PackageId>
     <Authors>John Baro</Authors>
     <Company>Yarra Software</Company>
-    <Version>0.9.0-beta</Version>
+    <Version>1.0.0.1</Version>
     <PackageTags>nodatime dynamodb aws</PackageTags>
-    <RepositoryUrl>https://github.com/yarrasoft/Nodatime.DynamoDB.Conversions</RepositoryUrl>
+    <RepositoryUrl>https://github.com/yarrasoft/NodaTime.DynamoDB.Conversions</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Nodatime to DynamoDB conversions</Description>
+    <IsPublishable>True</IsPublishable>
+    <PackageProjectUrl>https://github.com/yarrasoft/NodaTime.DynamoDB.Conversions</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.5.3.4" />
-    <PackageReference Include="NodaTime" Version="3.0.3" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.*" />
+    <PackageReference Include="NodaTime" Version="3.*" />
   </ItemGroup>
 
 </Project>

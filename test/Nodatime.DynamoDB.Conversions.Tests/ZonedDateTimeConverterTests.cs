@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Nodatime.DynamoDB.Conversions.Tests
+namespace NodaTime.DynamoDB.Conversions.Tests
 {
     public class ZonedDateTimeConverterTests
     {
